@@ -388,7 +388,7 @@ export default function ListingDetailPage() {
               <div className="mt-4 pt-4 border-t border-gray-50 space-y-2">
                 <div className="flex items-center justify-between text-sm">
                   <span className="text-gray-400">
-                    {T.listingType === "sale" ? T.buy : T.rent}
+                    {lang === "uz" ? "Tur" : lang === "ru" ? "Тип" : "Type"}
                   </span>
                   <span className="font-semibold text-gray-700">
                     {listing.listingType === "sale"
